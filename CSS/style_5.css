@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.navigasi:link {
+  color: red;
+}
+
+.navigasi:visited {
+  color: chocolate;
+}
+
+.navigasi:hover {
+  color: wheat;
+  background-color: navy;
+}
+
+.navigasi:active {
+  color: yellow;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a:link {
+  color: red;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+}

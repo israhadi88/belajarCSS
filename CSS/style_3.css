@@ -1,3 +1,13 @@
 * {
   box-sizing: content-box;
 }
+
+body {
+  background-color: #3333;
+}
+
+.judul_artikel,
+.konten_artikel {
+  color: blue;
+  text-align: center;
+}
