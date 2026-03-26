@@ -1,0 +1,8 @@
+* {
+  box-sizing: content-box;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+}
