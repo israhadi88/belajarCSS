@@ -1,0 +1,16 @@
+hr {
+  border: 2px solid blue;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lv {
+  border-left: 5px solid green;
+  width: 0px;
+  height: 100vh;
+}

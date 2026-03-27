@@ -1,0 +1,20 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  background-color: aqua;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.container {
+  background-color: cadetblue;
+  width: 250px;
+  height: 800px;
+  margin: auto;
+  overflow: auto;
+}
