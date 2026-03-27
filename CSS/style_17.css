@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 3px solid black;
+  width: 400px;
+  margin: auto;
+}
+
+.kotak1,
+.kotak2,
+.kotak3 {
+  border: 2px solid black;
+  width: 300px;
+  margin: 5px;
+  background-color: aqua;
+  text-align: justify;
+}
+
+.kotak1 {
+  padding: 40px;
+}
+
+.kotak2 {
+  border: 5px solid black;
+}

@@ -1,0 +1,21 @@
+.container {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.img1 {
+  float: left;
+  margin-right: 10px;
+}
+.img2 {
+  float: right;
+  margin-left: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.clear {
+  clear: both;
+}
