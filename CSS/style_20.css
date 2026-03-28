@@ -6,9 +6,13 @@
 }
 
 form {
-  width: 300px;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
   margin: 40px auto;
+  border: 1px solid teal;
   padding: 20px;
   border-radius: 10px;
 }
@@ -25,20 +29,33 @@ input[type="password"] {
 }
 
 button {
-  background-color: #4333;
-  color: black;
-  width: 30%;
+  background-color: teal;
+  color: white;
   display: block;
-  margin: auto;
-  padding: 14px;
-  font-size: 16px;
+  width: 30%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
+}
+
+input:focus {
+  outline-color: black;
+  background-color: teal;
+  color: white;
 }
 
 button:hover {
   background-color: black;
   color: white;
-  opacity: 0.8;
+}
+
+button:active {
+  background-color: teal;
+  color: white;
+}
+
+h3 {
+  color: teal;
 }

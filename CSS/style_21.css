@@ -31,12 +31,15 @@ input {
 }*/
 
 input[type="password"],
-input[type="email"], input[type="text"] {
+input[type="email"],
+input[type="text"] {
   width: 100%;
   display: block;
 }
 
 button {
+  background-color: teal;
+  color: white;
   display: block;
   width: 30%;
   margin: 20px auto;
@@ -44,6 +47,12 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+}
+
+input:focus {
+  outline-color: black;
+  background-color: teal;
+  color: white;
 }
 
 button:hover {
@@ -58,4 +67,15 @@ button:active {
 
 h3 {
   color: teal;
+}
+
+.haveAccount {
+  width: 100%;
+}
+
+.haveAccount p {
+  color: black;
+  text-align: left;
+  margin-top: 10px;
+  font-size: small;
 }
