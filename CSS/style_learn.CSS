@@ -1,0 +1,18 @@
+div.ex1 {
+  width: 300px;
+  background-color: yellow;
+}
+
+div.ex2 {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.hw1 {
+  margin-top: 16px;
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+}
